@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Digits
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		char ch=sc.next().charAt(0);
+
+		String str=(ch>='0'&& ch<='9')?("Character is a Digit"):("Character is a Digit");
+		System.out.println(str);
+	}
+}

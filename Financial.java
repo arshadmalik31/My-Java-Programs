@@ -1,0 +1,17 @@
+
+import java.util.Scanner;
+class Financial
+{
+	public static void main(String[] args) 
+	{
+		Scanner input=new Scanner(System.in);
+		System.out.println("Enter the subtotal : ");
+		float subtotal =input.nextFloat();
+		System.out.println("Enter the tip rate : ");
+		float tiprate =input.nextFloat();
+
+		float percent =(tiprate*subtotal)/100;
+		float newAmmount = subtotal+percent;
+		System.out.println("The tip is "+percent+" And total is "+newAmmount);
+	}
+}

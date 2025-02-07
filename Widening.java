@@ -1,0 +1,15 @@
+class Widening 
+{
+	public static void main(String[] args) 
+	{
+		byte a=10;
+		short b=a;
+		char ch=a;+++
+		int i=a;
+		long l=a;
+		float f=a;
+		double d=a;
+
+
+	}
+}
