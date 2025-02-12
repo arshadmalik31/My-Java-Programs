@@ -1,0 +1,16 @@
+class SelfIntro
+{
+public static void main(String[] args)
+{
+System.out.println("Hello Myself Arshad Mallick");
+System.out.println("From Shrirampur,Dist.Ahmednagar");
+System.out.println("Currently Pursuing  Bachelor Of Engineering In Vithalrao Vikhe Patil College Of Engineering,Ahmednagar In Information Technology Branch.");
+System.out.println("I have done HSC from RBNB College,Shrirampur with 89%.");
+System.out.println("And SSC from Model English School,Shrirampur with 83.80%.");
+System.out.println("I am interested in playing & watching cricket.");
+System.out.println("My strengths include being a self motivated person.");
+System.out,println("My short-term goal is to secure a job in reputed company,and my long-term goal is to achieve a good position where i can build my career & contribute to the organisation.");
+System.out.println("My Hobbies include reading books & playing cricket.");
+System.out.println("Lastly I am a quick learner and adapts from past mistakes.");
+}
+}

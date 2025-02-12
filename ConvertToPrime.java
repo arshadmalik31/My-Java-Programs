@@ -1,18 +1,24 @@
 import java.util.Scanner;
-class Practice{
+class ConvertToPrime{
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number: ");
+		
 		int num=sc.nextInt();
-		int sum=0;
+		boolean flag =true;
 
-		for(int i=1;i<=num;i++)
+
+		for(int i=2;i<num;i++)
 		{
 			if(num%i==0)
 			{
-				sum+=i;
+				flag=false;
+				num++;
+				i=2;
 			}
-		}
-		System.out.println(sum);
 	}
-}
+
+		System.out.println("num "+num);
+
+	}
+	}

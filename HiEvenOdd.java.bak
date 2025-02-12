@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class HiEvenOdd 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter a number: ");
+		int num = sc.nextInt();
+
+		System.out.println((num==0)?(num+ "__"):((num%2==0 && num%5==0)?(num+"hitwofive"):((num%5==0)?
+						  (num+"hifive"):((num%2==0)?(num+"hitwo"):("__")))));
+
+	}
+}

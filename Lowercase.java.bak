@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Lowercase 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a Character");
+		char ch=sc.next().charAt(0);
+
+		String str=(ch>'a'&& ch<'z')?("Character a Lowercase"):("Charactyer is not a lowercase");
+		System.out.println(str);
+	}
+}

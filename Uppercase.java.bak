@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Uppercase
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		char ch=sc.next().charAt(0);
+		
+String str=	(ch>='A' && ch<='Z')?("The Character is Uppercase"):("The Character is not Uppercase");
+		System.out.println(str);
+	}
+}
